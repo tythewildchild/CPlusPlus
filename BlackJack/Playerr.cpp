@@ -1,4 +1,8 @@
 #include "Playerr.h"
+#include <thread>
+#include <chrono>
+using namespace std;
+
 
 void Playerr::Deal() {
 	srand(time(0));
@@ -31,18 +35,22 @@ void Playerr::PrintScore() {
 	score = 0;
 	for (int i = 0; i < currentHand.size(); i++) {
 		if (i == currentHand.size() - 1) {
-			std::cout << currentHand.at(i) << std::endl << std::endl;
+			std::cout << currentHand.at(i);
 		}
 		else {
 			std::cout << currentHand.at(i) << ", ";
 		}
 		score += currentHand.at(i);
 	}
+	cout << "  (" << score << ")" << endl << endl;
 }
 
 void Playerr::EndTurn() {
 	turn = 0;
 	score = 0;
 	currentHand.clear();
+	bet = 50;
+	//system("cls");
+	
 }
 

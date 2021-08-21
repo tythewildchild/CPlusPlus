@@ -1,11 +1,10 @@
 ﻿  Playerr.cpp
-C:\Users\Tyhen\source\repos\BlackJack\Playerr.cpp(4,12): warning C4244:  'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\Users\Tyhen\source\repos\BlackJack\Playerr.cpp(9,12): warning C4244:  'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\Users\Tyhen\source\repos\BlackJack\Playerr.cpp(24,20): warning C4018:  '<': signed/unsigned mismatch
+S:\Documents\Projects\CPlusPlus\BlackJack\Playerr.cpp(8,12): warning C4244:  'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+S:\Documents\Projects\CPlusPlus\BlackJack\Playerr.cpp(13,12): warning C4244:  'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+S:\Documents\Projects\CPlusPlus\BlackJack\Playerr.cpp(28,20): warning C4018:  '<': signed/unsigned mismatch
   main.cpp
-C:\Users\Tyhen\source\repos\BlackJack\Playerr.cpp(32,20): warning C4018:  '<': signed/unsigned mismatch
-C:\Users\Tyhen\source\repos\BlackJack\Playerr.cpp(32,20): warning C4018: The contents of <charconv> are only available with C++17 or later.
-C:\Users\Tyhen\source\repos\BlackJack\main.cpp(75,38): warning C4244:  '+=': conversion from 'double' to 'int', possible loss of data
+S:\Documents\Projects\CPlusPlus\BlackJack\Playerr.cpp(36,20): warning C4018:  '<': signed/unsigned mismatch
+S:\Documents\Projects\CPlusPlus\BlackJack\Playerr.cpp(36,20): warning C4018: The contents of <charconv> are only available with C++17 or later.
   Generating Code...
-C:\Users\Tyhen\source\repos\BlackJack\main.cpp(98,38): warning C4244:  '+=': conversion from 'double' to 'int', possible loss of data
-  BlackJack.vcxproj -> C:\Users\Tyhen\source\repos\BlackJack\Debug\BlackJack.exe
+S:\Documents\Projects\CPlusPlus\BlackJack\main.cpp(80,38): warning C4244:  '+=': conversion from 'double' to 'int', possible loss of data
+  BlackJack.vcxproj -> S:\Documents\Projects\CPlusPlus\BlackJack\Debug\BlackJack.exe

@@ -8,7 +8,12 @@
 #include <cstdlib>
 #include <ctime>
 #include "Playerr.h"
+#include <thread>
+#include <chrono>
+
 using namespace std;
+using this_thread::sleep_for;
+using namespace chrono_literals;
 
 int main()
 {
@@ -72,8 +77,9 @@ int main()
 			player.PrintScore();
 			if (player.score == 21) {
 				cout << "Black Jack!" << endl << endl;
-				player.amount += player.bet * 1.5;
+				player.amount += player.bet * 2.5;
 				player.EndTurn();
+				sleep_for(250ms);
 				continue;
 			}
 		}
@@ -94,8 +100,8 @@ int main()
 				break;
 			}
 			if (player.score == 21) {
-				cout << "Black Jack!" << endl << endl;
-				player.amount += player.bet * 1.5;
+				cout << "You got 21!" << endl << endl;
+				player.amount += player.bet * 2;
 				player.EndTurn();
 				break;
 			}
