@@ -71,7 +71,7 @@ int main()
 			
 
 
-			cout << "Total Winnings: $" << player.amount << endl;
+			cout << "\nTotal Winnings: $" << player.amount << endl;
 			player.Deal();
 			player.CalculateScore();
 			player.PrintScore();
